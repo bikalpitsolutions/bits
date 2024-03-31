@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  color: white;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #171717;
+  font-family: "Teko", sans-serif;
+}
+
+.headerWrapper {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  transition: 0.3s ease;
+  padding: 1.1rem 0;
+}
+.headerWrapper header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: auto;
+}
+.headerWrapper header .logoIcon {
+  cursor: pointer;
+}
+.headerWrapper header .logoIcon p {
+  color: #9fff02;
+  font-weight: 600;
+  font-size: 25px;
+}
+.headerWrapper header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerWrapper header nav p {
+  margin-right: 0.8rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.headerWrapper header nav p:hover {
+  border-bottom: 2px solid #9fff02;
+}
+.headerWrapper header nav p:last-child {
+  margin-right: 0;
+}
+.headerWrapper header button {
+  padding: 1rem 1.2rem;
+  background-color: #9fff02;
+  color: #000;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 0;
+  font-size: 0.8rem;
+}
+.headerWrapper header button:hover {
+  transition: 0.1s ease-in-out;
+  box-shadow: 3px 3px 6px rgba(159, 255, 2, 0.5);
+}/*# sourceMappingURL=styles.css.map */
